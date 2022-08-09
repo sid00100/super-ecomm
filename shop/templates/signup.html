@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+sign up
+{% endblock %}
+
+{% block content %}
+{{ form.username.label }}
+{{ form.username(class="form-control") }}
+<br>
+{{ form.email.label }}
+{{ form.email(class="form-control") }}
+<br>
+{{ form.password.label }}
+{{ form.password(class="form-control") }}
+<br>
+{{ form.password_confirm.label }}
+{{ form.password_confirm(class="form-control") }}
+<br>
+{{ form.submit(class="btn btn-primary") }}
+
+{% endblock %}
+
+<!-- add css please or however u like to make it -->
