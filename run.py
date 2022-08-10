@@ -1,4 +1,5 @@
 from shop import route, app
+
 app.config["SECRET_KEY"] = "sid00100"
 
 
